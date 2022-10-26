@@ -1,0 +1,49 @@
+* {
+    font-family: arial;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.caption {
+    background-color: white;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    text-align: center;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.468);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-img {
+    width: 50%;
+    height: 500px;
+    background-image: url(../img/work-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-img i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+/* .bg-img .Xmark {
+    width: 35px;
+    height: 35px;
+    border: solid 1px #DC3545;
+    border-radius: 50%;
+} */
